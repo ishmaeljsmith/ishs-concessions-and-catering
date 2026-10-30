@@ -1,0 +1,94 @@
+ISH'S CONCESSIONS AND CATERING — WEBSITE BACKUP
+Ish's Concessions and Catering LLC  ·  Florida L26000201812
+Saved September 2026
+
+This folder is your site. It does not need Grok to exist.
+
+
+WHAT YOU OWN (independent of Grok)
+----------------------------------
+• The domain ishs-concessions-and-catering.com — that lives with whoever you
+  bought it from (GoDaddy, Namecheap, Google Domains, etc.), not with Grok.
+• This code and every photo and the logo PNG inside public/images/
+• The LLC, phone (352) 768-8768, email contact@ishs-concessions-and-catering.com
+• GoFundMe and the Facebook page
+• The private logo filing guide: Ishs-logo-filing-guide.pdf
+
+
+WHAT IS NOT A BACKUP
+--------------------
+• The live preview inside a Grok chat
+• A grok.me link after you hit Publish
+Those go away if this Grok project goes away. Keep this zip somewhere else.
+
+
+WHERE TO PUT THIS ZIP (do all three)
+------------------------------------
+1. This computer — Downloads or Documents
+2. A second place — Google Drive, Dropbox, or iCloud
+3. A third place — a USB stick, or email the zip to yourself
+   at Contact@Ishs-concessions-and-catering.com
+
+Do not keep the only copy inside Grok.
+
+
+IF GROK DISAPPEARS — WHAT TO DO
+-------------------------------
+You have two paths. Path A is the simple one.
+
+PATH A — Hand this zip to a web person (recommended)
+  1. Send them this whole folder.
+  2. Tell them: it is a React / TanStack Start site. Run npm install,
+     then npm run build. Deploy the build to Vercel, Netlify, or any
+     Node host. Point ishs-concessions-and-catering.com at that host.
+  3. Give them your domain login so they can change the DNS.
+  4. Give them the logo files in public/images/logo-full.png
+     and logo-mark.png — those are the originals.
+
+PATH B — Do it yourself on Vercel (free for a site this size)
+  1. Create a free account at vercel.com (use your own email, not Grok).
+  2. Install Node.js LTS from https://nodejs.org (the “LTS” button).
+  3. Unzip this folder. Open Terminal (Mac) or PowerShell (Windows).
+  4. Type:  cd  then a space, then drag the unzipped folder in, then Enter.
+  5. Type:  npm install
+  6. Type:  npm run build
+  7. On vercel.com choose Add New → Project → upload this folder
+     (or connect a GitHub repo if you make one).
+  8. When Vercel gives you a URL, go to your domain registrar and
+     point ishs-concessions-and-catering.com at Vercel. Vercel’s
+     docs call this “add a domain.” It takes a few hours to stick.
+
+You do not need Grok, WordPress, or this chat for either path.
+
+
+PAGES IN THIS SITE
+------------------
+  /          Home
+  /about     About the company
+  /support   Donate (GoFundMe) and partners
+  /updates   Timeline, including 15 of 48 loan payments = 31%
+  /contact   Phone, email, form
+  /privacy   Privacy note
+
+The logo filing guide is NOT on the public site. It is only the PDF
+in this backup: Ishs-logo-filing-guide.pdf
+
+
+WORDPRESS
+---------
+If ishs-concessions-and-catering.com is still running WordPress today,
+that is a separate site. Back that up too (your host usually has
+“download backup” or UpdraftPlus). This zip is the new site we built
+in Grok, not a copy of the old WordPress files.
+
+
+TECHNICAL NOTES FOR A DEVELOPER
+-------------------------------
+  Stack: React 19, TanStack Start, Tailwind v4, Vite, Vercel/Nitro
+  Node: 22
+  Auth: off    Database: off    Contact form: localStorage only
+  Dev:  npm install && npm run dev
+  Build: npm run build
+  Do not ship node_modules. Install fresh.
+  Original logo: public/images/logo-full.png
+  Brand colors: cream #F3EEE4, crimson #9E1A1F, ink #14110F
